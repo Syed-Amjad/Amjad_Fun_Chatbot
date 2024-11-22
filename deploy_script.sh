@@ -11,11 +11,10 @@ cd Amjad_Fun_Chatbot || exit
 # Step 3: Set up virtual environment and install dependencies
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install -r app/requirements.txt  # Correct path to requirements.txt
 
 # Step 4: Run Flask app
 nohup venv/bin/flask run --host=0.0.0.0 --port=80 &
-
 
 
 
