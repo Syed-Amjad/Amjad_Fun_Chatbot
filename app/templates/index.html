@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amjad's Fun ChatBot</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Amjad's Fun ChatBot!</h1>
+        <div class="chat-window">
+            <div id="chat-display"></div>
+            <input id="user-input" type="text" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+        <audio id="response-audio" controls hidden></audio>
+    </div>
+
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
