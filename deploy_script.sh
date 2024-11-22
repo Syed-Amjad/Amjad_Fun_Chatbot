@@ -6,7 +6,7 @@ sudo apt install -y python3 python3-pip python3-venv git
 
 # Step 2: Clone your repository
 git clone https://github.com/Syed-Amjad/Amjad_Fun_Chatbot.git
-cd your-repo || exit
+cd Amjad_Fun_Chatbot || exit
 
 # Step 3: Set up virtual environment and install dependencies
 python3 -m venv venv
